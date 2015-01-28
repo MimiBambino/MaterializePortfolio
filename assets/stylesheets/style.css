@@ -78,6 +78,10 @@ ul.side-nav.fixed a {
   font-size: 30px;
 }
 
+.portfolio {
+  height: 420px;
+}
+
 .github {
   color: white;
 }
