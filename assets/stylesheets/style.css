@@ -50,5 +50,38 @@
 
 #name {
   font-family: Montez, cursive;
-  font-size: 6.5em;
+  font-size: 6em;
+}
+
+#title {
+  font-family: Lato;
+  font-weight: 100;
+  font-size 0.2em;
+  margin-top: 50px;
+}
+
+.top-nav {
+  height: 140px;
+}
+
+#contact {
+  width: 80px;
+}
+
+ul.side-nav.fixed {
+  padding-top: 180px;
+}
+ul.side-nav.fixed a {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: auto;
+  font-size: 30px;
+}
+
+.github {
+  color: white;
+}
+
+.image_caption a{
+  color: #1a237e;
 }
