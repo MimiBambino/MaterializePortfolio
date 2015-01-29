@@ -93,7 +93,7 @@ ul.side-nav a:hover {
 }
 
 .portfolio {
-  height: 440px;
+  height: 450px;
   padding-bottom: 10px;
 }
 
@@ -114,13 +114,39 @@ ul.side-nav a:hover {
 }
 
 .intro_caption p {
-  text-indent: 2.5em;
+  /*text-indent: 2.5em;*/
 }
 
 .welcome {
   font-size: 2.2em;
 }
 
-#lady {
+@media screen and (max-width: 1415px) {
+  #title {
+    margin-top: 0;
+  }
+}
 
+@media screen and (max-width: 1260px) {
+  #name {
+  font-size: 5em;
+  }
+  #title {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  #name {
+  font-size: 4.5em;
+  }
+  .portfolio {
+    height: 460px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #name {
+    font-size: 4em;
+  }
 }
