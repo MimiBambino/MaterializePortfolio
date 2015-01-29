@@ -48,6 +48,10 @@
   padding-top: 5px;
 }
 
+html {
+  background-color: #eee;
+}
+
 #name {
   font-family: Montez, cursive;
   font-size: 6em;
@@ -68,9 +72,14 @@
   width: 80px;
 }
 
+#contact:hover {
+  width: 80px;
+}
+
 ul.side-nav.fixed {
   padding-top: 180px;
 }
+
 ul.side-nav.fixed a {
   padding-top: 25px;
   padding-bottom: 25px;
@@ -78,18 +87,40 @@ ul.side-nav.fixed a {
   font-size: 30px;
 }
 
+ul.side-nav a:hover {
+  background-color: #1a237e;
+  width: 90px;
+}
+
 .portfolio {
-  height: 420px;
+  height: 440px;
+  padding-bottom: 10px;
 }
 
 .github {
   color: white;
 }
 
-.image_caption a{
+.image_caption a {
   color: #1a237e;
 }
 
+.intro {
+  margin-top: 30px;
+}
+
+.intro_caption {
+  font-size: 1.2em;
+}
+
+.intro_caption p {
+  text-indent: 2.5em;
+}
+
+.welcome {
+  font-size: 2.2em;
+}
+
 #lady {
-  padding-top: 20px;
+
 }
