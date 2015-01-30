@@ -51,6 +51,9 @@
 html {
   background-color: #eee;
 }
+.container {
+  width: 85%;
+}
 
 #name {
   font-family: Montez, cursive;
@@ -87,7 +90,7 @@ ul.side-nav.fixed a {
   font-size: 30px;
 }
 
-ul.side-nav a:hover {
+ul.side-nav a:hover, ul.side-nav a:active {
   background-color: #1a237e;
   width: 90px;
 }
@@ -101,8 +104,26 @@ ul.side-nav a:hover {
   color: white;
 }
 
-.image_caption a {
+.image_caption {
   color: #1a237e;
+  text-transform: uppercase;
+}
+
+.card a {
+  color: #bdbdbd;
+}
+.card a:hover {
+  color: #424242;
+}
+
+.github-small {
+  font-size: 22px;
+  padding-left: 10px;
+  color: #bdbdbd;
+}
+
+.github-small:hover {
+  color: #424242;
 }
 
 .description {
@@ -127,18 +148,13 @@ ul.side-nav a:hover {
   padding-left: 3%;
 }
 
-@media screen and (max-width: 1415px) {
-  #title {
-    margin-top: 0;
-  }
+footer {
+  font-size: 20px;
 }
 
 @media screen and (max-width: 1260px) {
   #name {
   font-size: 5em;
-  }
-  #title {
-    margin-top: 0;
   }
 }
 
@@ -146,8 +162,14 @@ ul.side-nav a:hover {
   #name {
   font-size: 4.5em;
   }
+  #title {
+    margin-top: 0;
+  }
   .portfolio {
     height: 460px;
+  }
+  .container {
+    margin-left: 12%;
   }
 }
 
@@ -161,6 +183,12 @@ ul.side-nav a:hover {
 @media screen and (max-width: 750px) {
   #name {
     font-size: 4em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    margin-left: 13%;
   }
 }
 
