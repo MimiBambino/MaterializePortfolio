@@ -93,7 +93,7 @@ ul.side-nav a:hover {
 }
 
 .portfolio {
-  height: 450px;
+  height: 470px;
   padding-bottom: 10px;
 }
 
@@ -103,6 +103,10 @@ ul.side-nav a:hover {
 
 .image_caption a {
   color: #1a237e;
+}
+
+.description {
+  padding-to
 }
 
 .intro {
@@ -119,6 +123,9 @@ ul.side-nav a:hover {
 
 .welcome {
   font-size: 2.2em;
+  position: relative;
+  left: 30%;
+  padding-left: 3%;
 }
 
 @media screen and (max-width: 1415px) {
@@ -145,8 +152,21 @@ ul.side-nav a:hover {
   }
 }
 
+@media screen and (max-width: 993px) {
+  .welcome {
+    left: 50%;
+    padding-left: 0;
+  }
+}
+
 @media screen and (max-width: 750px) {
   #name {
     font-size: 4em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .portfolio {
+    height: 480px;
   }
 }
